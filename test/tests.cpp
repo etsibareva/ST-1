@@ -88,7 +88,10 @@ TEST(st1, nextPrime55) {
 }
 TEST(st1, nextPrime56) { 
   EXPECT_EQ(nextPrime(56), 59); 
-}
+
+TEST(st1, nextPrime100) { 
+  EXPECT_EQ(nextPrime(100), 101); 
+}}
 TEST(st1, nextPrime101) { 
   EXPECT_EQ(nextPrime(101), 103); 
 }
